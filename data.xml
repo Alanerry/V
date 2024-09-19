@@ -1,0 +1,1853 @@
+<?xml version='1.0' encoding='utf-8'?>
+<VehiclePositions>
+    <VehiclePosition time="11">
+        <VehicleID>1</VehicleID>
+        <X>-52.40</X>
+        <Y>62.03 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="12">
+        <VehicleID>1</VehicleID>
+        <X>-37.56</X>
+        <Y>62.03 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="13">
+        <VehicleID>1</VehicleID>
+        <X>-22.47</X>
+        <Y>62.04 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="14">
+        <VehicleID>1</VehicleID>
+        <X>-7.11</X>
+        <Y>62.05 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="15">
+        <VehicleID>1</VehicleID>
+        <X>8.25</X>
+        <Y>62.06 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="16">
+        <VehicleID>1</VehicleID>
+        <X>23.34</X>
+        <Y>62.06 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="17">
+        <VehicleID>1</VehicleID>
+        <X>38.18</X>
+        <Y>62.07 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="17">
+        <VehicleID>2</VehicleID>
+        <X>-57.08</X>
+        <Y>62.02 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="18">
+        <VehicleID>1</VehicleID>
+        <X>52.76</X>
+        <Y>62.08 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="18">
+        <VehicleID>2</VehicleID>
+        <X>-41.69</X>
+        <Y>62.03 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="19">
+        <VehicleID>1</VehicleID>
+        <X>67.07</X>
+        <Y>62.08 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="19">
+        <VehicleID>2</VehicleID>
+        <X>-26.04</X>
+        <Y>62.04 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="19">
+        <VehicleID>3</VehicleID>
+        <X>-49.69</X>
+        <Y>62.03 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="20">
+        <VehicleID>1</VehicleID>
+        <X>81.13</X>
+        <Y>62.09 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="20">
+        <VehicleID>2</VehicleID>
+        <X>-10.39</X>
+        <Y>62.05 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="20">
+        <VehicleID>3</VehicleID>
+        <X>-35.35</X>
+        <Y>62.03 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="20">
+        <VehicleID>4</VehicleID>
+        <X>-54.27</X>
+        <Y>62.03 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="21">
+        <VehicleID>1</VehicleID>
+        <X>94.92</X>
+        <Y>62.10 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="21">
+        <VehicleID>2</VehicleID>
+        <X>5.00</X>
+        <Y>62.05 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="21">
+        <VehicleID>3</VehicleID>
+        <X>-20.87</X>
+        <Y>62.04 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="21">
+        <VehicleID>4</VehicleID>
+        <X>-39.80</X>
+        <Y>62.03 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="22">
+        <VehicleID>1</VehicleID>
+        <X>108.46</X>
+        <Y>62.10 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="22">
+        <VehicleID>2</VehicleID>
+        <X>20.12</X>
+        <Y>62.06 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="22">
+        <VehicleID>3</VehicleID>
+        <X>-6.26</X>
+        <Y>62.05 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="22">
+        <VehicleID>4</VehicleID>
+        <X>-25.42</X>
+        <Y>62.04 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="22">
+        <VehicleID>5</VehicleID>
+        <X>-47.39</X>
+        <Y>62.03 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="23">
+        <VehicleID>2</VehicleID>
+        <X>34.98</X>
+        <Y>62.07 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="23">
+        <VehicleID>3</VehicleID>
+        <X>8.48</X>
+        <Y>62.06 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="23">
+        <VehicleID>4</VehicleID>
+        <X>-11.22</X>
+        <Y>62.05 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="23">
+        <VehicleID>5</VehicleID>
+        <X>-32.86</X>
+        <Y>62.04 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="23">
+        <VehicleID>6</VehicleID>
+        <X>-50.66</X>
+        <Y>62.03 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="24">
+        <VehicleID>2</VehicleID>
+        <X>49.58</X>
+        <Y>62.08 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="24">
+        <VehicleID>3</VehicleID>
+        <X>23.35</X>
+        <Y>62.06 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="24">
+        <VehicleID>4</VehicleID>
+        <X>2.99</X>
+        <Y>62.05 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="24">
+        <VehicleID>5</VehicleID>
+        <X>-18.52</X>
+        <Y>62.04 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="24">
+        <VehicleID>6</VehicleID>
+        <X>-36.10</X>
+        <Y>62.03 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="24">
+        <VehicleID>7</VehicleID>
+        <X>-57.39</X>
+        <Y>62.02 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="25">
+        <VehicleID>2</VehicleID>
+        <X>64.18</X>
+        <Y>62.08 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="25">
+        <VehicleID>3</VehicleID>
+        <X>38.28</X>
+        <Y>62.07 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="25">
+        <VehicleID>4</VehicleID>
+        <X>17.37</X>
+        <Y>62.06 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="25">
+        <VehicleID>5</VehicleID>
+        <X>-4.27</X>
+        <Y>62.05 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="25">
+        <VehicleID>6</VehicleID>
+        <X>-21.57</X>
+        <Y>62.04 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="25">
+        <VehicleID>7</VehicleID>
+        <X>-43.25</X>
+        <Y>62.03 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="26">
+        <VehicleID>2</VehicleID>
+        <X>79.04</X>
+        <Y>62.09 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="26">
+        <VehicleID>3</VehicleID>
+        <X>53.19</X>
+        <Y>62.08 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="26">
+        <VehicleID>4</VehicleID>
+        <X>31.92</X>
+        <Y>62.07 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="26">
+        <VehicleID>5</VehicleID>
+        <X>9.97</X>
+        <Y>62.06 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="26">
+        <VehicleID>6</VehicleID>
+        <X>-7.21</X>
+        <Y>62.05 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="26">
+        <VehicleID>7</VehicleID>
+        <X>-28.99</X>
+        <Y>62.04 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="26">
+        <VehicleID>8</VehicleID>
+        <X>-48.43</X>
+        <Y>62.03 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="27">
+        <VehicleID>2</VehicleID>
+        <X>94.16</X>
+        <Y>62.10 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="27">
+        <VehicleID>3</VehicleID>
+        <X>68.16</X>
+        <Y>62.08 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="27">
+        <VehicleID>4</VehicleID>
+        <X>46.63</X>
+        <Y>62.07 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="27">
+        <VehicleID>5</VehicleID>
+        <X>24.20</X>
+        <Y>62.06 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="27">
+        <VehicleID>6</VehicleID>
+        <X>7.04</X>
+        <Y>62.05 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="27">
+        <VehicleID>7</VehicleID>
+        <X>-14.61</X>
+        <Y>62.04 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="27">
+        <VehicleID>8</VehicleID>
+        <X>-34.11</X>
+        <Y>62.04 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="28">
+        <VehicleID>2</VehicleID>
+        <X>109.55</X>
+        <Y>62.10 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="28">
+        <VehicleID>3</VehicleID>
+        <X>83.26</X>
+        <Y>62.09 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="28">
+        <VehicleID>4</VehicleID>
+        <X>61.52</X>
+        <Y>62.08 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="28">
+        <VehicleID>5</VehicleID>
+        <X>38.48</X>
+        <Y>62.07 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="28">
+        <VehicleID>6</VehicleID>
+        <X>21.17</X>
+        <Y>62.06 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="28">
+        <VehicleID>7</VehicleID>
+        <X>-0.20</X>
+        <Y>62.05 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="28">
+        <VehicleID>8</VehicleID>
+        <X>-19.83</X>
+        <Y>62.04 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="29">
+        <VehicleID>3</VehicleID>
+        <X>98.37</X>
+        <Y>62.10 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="29">
+        <VehicleID>4</VehicleID>
+        <X>76.58</X>
+        <Y>62.09 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="29">
+        <VehicleID>5</VehicleID>
+        <X>52.84</X>
+        <Y>62.08 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="29">
+        <VehicleID>6</VehicleID>
+        <X>35.18</X>
+        <Y>62.07 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="29">
+        <VehicleID>7</VehicleID>
+        <X>14.15</X>
+        <Y>62.06 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="29">
+        <VehicleID>8</VehicleID>
+        <X>-5.65</X>
+        <Y>62.05 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="30">
+        <VehicleID>4</VehicleID>
+        <X>91.72</X>
+        <Y>62.10 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="30">
+        <VehicleID>5</VehicleID>
+        <X>67.29</X>
+        <Y>62.08 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="30">
+        <VehicleID>6</VehicleID>
+        <X>49.07</X>
+        <Y>62.07 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="30">
+        <VehicleID>7</VehicleID>
+        <X>28.38</X>
+        <Y>62.07 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="30">
+        <VehicleID>8</VehicleID>
+        <X>8.44</X>
+        <Y>62.06 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="30">
+        <VehicleID>9</VehicleID>
+        <X>-53.30</X>
+        <Y>62.03 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="31">
+        <VehicleID>4</VehicleID>
+        <X>106.77</X>
+        <Y>62.10 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="31">
+        <VehicleID>5</VehicleID>
+        <X>81.83</X>
+        <Y>62.09 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="31">
+        <VehicleID>6</VehicleID>
+        <X>62.96</X>
+        <Y>62.08 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="31">
+        <VehicleID>7</VehicleID>
+        <X>42.49</X>
+        <Y>62.07 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="31">
+        <VehicleID>8</VehicleID>
+        <X>22.44</X>
+        <Y>62.06 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="31">
+        <VehicleID>9</VehicleID>
+        <X>-38.68</X>
+        <Y>62.03 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="32">
+        <VehicleID>5</VehicleID>
+        <X>96.45</X>
+        <Y>62.10 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="32">
+        <VehicleID>6</VehicleID>
+        <X>76.97</X>
+        <Y>62.09 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="32">
+        <VehicleID>7</VehicleID>
+        <X>56.49</X>
+        <Y>62.08 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="32">
+        <VehicleID>8</VehicleID>
+        <X>36.43</X>
+        <Y>62.07 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="32">
+        <VehicleID>9</VehicleID>
+        <X>-23.75</X>
+        <Y>62.04 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="33">
+        <VehicleID>5</VehicleID>
+        <X>111.17</X>
+        <Y>62.10 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="33">
+        <VehicleID>6</VehicleID>
+        <X>91.10</X>
+        <Y>62.09 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="33">
+        <VehicleID>7</VehicleID>
+        <X>70.37</X>
+        <Y>62.08 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="33">
+        <VehicleID>8</VehicleID>
+        <X>50.48</X>
+        <Y>62.08 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="33">
+        <VehicleID>9</VehicleID>
+        <X>-8.82</X>
+        <Y>62.05 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="34">
+        <VehicleID>6</VehicleID>
+        <X>105.35</X>
+        <Y>62.10 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="34">
+        <VehicleID>7</VehicleID>
+        <X>84.13</X>
+        <Y>62.09 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="34">
+        <VehicleID>8</VehicleID>
+        <X>64.47</X>
+        <Y>62.08 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="34">
+        <VehicleID>9</VehicleID>
+        <X>5.81</X>
+        <Y>62.05 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="35">
+        <VehicleID>7</VehicleID>
+        <X>97.78</X>
+        <Y>62.10 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="35">
+        <VehicleID>8</VehicleID>
+        <X>78.40</X>
+        <Y>62.09 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="35">
+        <VehicleID>9</VehicleID>
+        <X>20.13</X>
+        <Y>62.06 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="36">
+        <VehicleID>7</VehicleID>
+        <X>111.31</X>
+        <Y>62.10 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="36">
+        <VehicleID>8</VehicleID>
+        <X>92.29</X>
+        <Y>62.10 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="36">
+        <VehicleID>9</VehicleID>
+        <X>34.15</X>
+        <Y>62.07 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="37">
+        <VehicleID>8</VehicleID>
+        <X>106.09</X>
+        <Y>62.10 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="37">
+        <VehicleID>9</VehicleID>
+        <X>47.87</X>
+        <Y>62.07 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="38">
+        <VehicleID>9</VehicleID>
+        <X>61.59</X>
+        <Y>62.08 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="39">
+        <VehicleID>9</VehicleID>
+        <X>75.61</X>
+        <Y>62.09 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="40">
+        <VehicleID>9</VehicleID>
+        <X>89.93</X>
+        <Y>62.09 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="41">
+        <VehicleID>9</VehicleID>
+        <X>104.56</X>
+        <Y>62.10 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="41">
+        <VehicleID>10</VehicleID>
+        <X>-51.69</X>
+        <Y>62.03 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="42">
+        <VehicleID>10</VehicleID>
+        <X>-36.37</X>
+        <Y>62.03 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="43">
+        <VehicleID>10</VehicleID>
+        <X>-20.93</X>
+        <Y>62.04 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="44">
+        <VehicleID>10</VehicleID>
+        <X>-5.37</X>
+        <Y>62.05 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="45">
+        <VehicleID>10</VehicleID>
+        <X>10.32</X>
+        <Y>62.06 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="46">
+        <VehicleID>10</VehicleID>
+        <X>26.12</X>
+        <Y>62.06 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="47">
+        <VehicleID>10</VehicleID>
+        <X>42.04</X>
+        <Y>62.07 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="48">
+        <VehicleID>10</VehicleID>
+        <X>58.08</X>
+        <Y>62.08 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="48">
+        <VehicleID>11</VehicleID>
+        <X>-47.51</X>
+        <Y>62.03 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="49">
+        <VehicleID>10</VehicleID>
+        <X>74.25</X>
+        <Y>62.09 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="49">
+        <VehicleID>11</VehicleID>
+        <X>-33.15</X>
+        <Y>62.04 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="49">
+        <VehicleID>12</VehicleID>
+        <X>-57.67</X>
+        <Y>62.02 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="50">
+        <VehicleID>10</VehicleID>
+        <X>90.53</X>
+        <Y>62.09 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="50">
+        <VehicleID>11</VehicleID>
+        <X>-18.59</X>
+        <Y>62.04 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="50">
+        <VehicleID>12</VehicleID>
+        <X>-43.42</X>
+        <Y>62.03 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="51">
+        <VehicleID>10</VehicleID>
+        <X>106.81</X>
+        <Y>62.10 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="51">
+        <VehicleID>11</VehicleID>
+        <X>-3.82</X>
+        <Y>62.05 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="51">
+        <VehicleID>12</VehicleID>
+        <X>-28.95</X>
+        <Y>62.04 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="51">
+        <VehicleID>13</VehicleID>
+        <X>-49.53</X>
+        <Y>62.03 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="52">
+        <VehicleID>11</VehicleID>
+        <X>10.95</X>
+        <Y>62.06 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="52">
+        <VehicleID>12</VehicleID>
+        <X>-14.48</X>
+        <Y>62.04 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="52">
+        <VehicleID>13</VehicleID>
+        <X>-35.75</X>
+        <Y>62.03 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="53">
+        <VehicleID>11</VehicleID>
+        <X>25.51</X>
+        <Y>62.06 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="53">
+        <VehicleID>12</VehicleID>
+        <X>-0.23</X>
+        <Y>62.05 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="53">
+        <VehicleID>13</VehicleID>
+        <X>-21.81</X>
+        <Y>62.04 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="54">
+        <VehicleID>11</VehicleID>
+        <X>39.86</X>
+        <Y>62.07 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="54">
+        <VehicleID>12</VehicleID>
+        <X>13.80</X>
+        <Y>62.06 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="54">
+        <VehicleID>13</VehicleID>
+        <X>-7.70</X>
+        <Y>62.05 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="55">
+        <VehicleID>11</VehicleID>
+        <X>54.01</X>
+        <Y>62.08 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="55">
+        <VehicleID>12</VehicleID>
+        <X>27.62</X>
+        <Y>62.06 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="55">
+        <VehicleID>13</VehicleID>
+        <X>6.47</X>
+        <Y>62.05 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="56">
+        <VehicleID>11</VehicleID>
+        <X>67.94</X>
+        <Y>62.08 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="56">
+        <VehicleID>12</VehicleID>
+        <X>41.22</X>
+        <Y>62.07 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="56">
+        <VehicleID>13</VehicleID>
+        <X>20.55</X>
+        <Y>62.06 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="57">
+        <VehicleID>11</VehicleID>
+        <X>81.67</X>
+        <Y>62.09 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="57">
+        <VehicleID>12</VehicleID>
+        <X>54.59</X>
+        <Y>62.08 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="57">
+        <VehicleID>13</VehicleID>
+        <X>34.47</X>
+        <Y>62.07 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="58">
+        <VehicleID>11</VehicleID>
+        <X>95.19</X>
+        <Y>62.10 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="58">
+        <VehicleID>12</VehicleID>
+        <X>67.97</X>
+        <Y>62.08 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="58">
+        <VehicleID>13</VehicleID>
+        <X>48.23</X>
+        <Y>62.07 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="59">
+        <VehicleID>11</VehicleID>
+        <X>108.51</X>
+        <Y>62.10 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="59">
+        <VehicleID>12</VehicleID>
+        <X>81.57</X>
+        <Y>62.09 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="59">
+        <VehicleID>13</VehicleID>
+        <X>61.83</X>
+        <Y>62.08 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="60">
+        <VehicleID>12</VehicleID>
+        <X>95.27</X>
+        <Y>62.10 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="60">
+        <VehicleID>13</VehicleID>
+        <X>75.26</X>
+        <Y>62.09 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="61">
+        <VehicleID>12</VehicleID>
+        <X>108.86</X>
+        <Y>62.10 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="61">
+        <VehicleID>13</VehicleID>
+        <X>88.53</X>
+        <Y>62.09 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="62">
+        <VehicleID>13</VehicleID>
+        <X>101.64</X>
+        <Y>62.10 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="72">
+        <VehicleID>14</VehicleID>
+        <X>-59.83</X>
+        <Y>62.02 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="73">
+        <VehicleID>14</VehicleID>
+        <X>-46.09</X>
+        <Y>62.03 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="74">
+        <VehicleID>14</VehicleID>
+        <X>-32.17</X>
+        <Y>62.04 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="74">
+        <VehicleID>15</VehicleID>
+        <X>-51.54</X>
+        <Y>62.03 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="75">
+        <VehicleID>14</VehicleID>
+        <X>-18.25</X>
+        <Y>62.04 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="75">
+        <VehicleID>15</VehicleID>
+        <X>-37.45</X>
+        <Y>62.03 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="76">
+        <VehicleID>14</VehicleID>
+        <X>-4.51</X>
+        <Y>62.05 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="76">
+        <VehicleID>15</VehicleID>
+        <X>-23.47</X>
+        <Y>62.04 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="76">
+        <VehicleID>16</VehicleID>
+        <X>-58.16</X>
+        <Y>62.02 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="77">
+        <VehicleID>14</VehicleID>
+        <X>9.04</X>
+        <Y>62.06 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="77">
+        <VehicleID>15</VehicleID>
+        <X>-9.68</X>
+        <Y>62.05 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="77">
+        <VehicleID>16</VehicleID>
+        <X>-43.80</X>
+        <Y>62.03 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="78">
+        <VehicleID>14</VehicleID>
+        <X>22.40</X>
+        <Y>62.06 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="78">
+        <VehicleID>15</VehicleID>
+        <X>3.90</X>
+        <Y>62.05 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="78">
+        <VehicleID>16</VehicleID>
+        <X>-29.45</X>
+        <Y>62.04 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="78">
+        <VehicleID>17</VehicleID>
+        <X>-56.71</X>
+        <Y>62.02 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="79">
+        <VehicleID>14</VehicleID>
+        <X>35.57</X>
+        <Y>62.07 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="79">
+        <VehicleID>15</VehicleID>
+        <X>17.27</X>
+        <Y>62.06 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="79">
+        <VehicleID>16</VehicleID>
+        <X>-15.12</X>
+        <Y>62.04 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="79">
+        <VehicleID>17</VehicleID>
+        <X>-42.46</X>
+        <Y>62.03 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="80">
+        <VehicleID>14</VehicleID>
+        <X>48.55</X>
+        <Y>62.07 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="80">
+        <VehicleID>15</VehicleID>
+        <X>30.43</X>
+        <Y>62.07 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="80">
+        <VehicleID>16</VehicleID>
+        <X>-0.83</X>
+        <Y>62.05 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="80">
+        <VehicleID>17</VehicleID>
+        <X>-27.98</X>
+        <Y>62.04 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="80">
+        <VehicleID>18</VehicleID>
+        <X>-50.06</X>
+        <Y>62.03 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="81">
+        <VehicleID>14</VehicleID>
+        <X>61.54</X>
+        <Y>62.08 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="81">
+        <VehicleID>15</VehicleID>
+        <X>43.37</X>
+        <Y>62.07 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="81">
+        <VehicleID>16</VehicleID>
+        <X>13.41</X>
+        <Y>62.06 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="81">
+        <VehicleID>17</VehicleID>
+        <X>-13.40</X>
+        <Y>62.05 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="81">
+        <VehicleID>18</VehicleID>
+        <X>-35.30</X>
+        <Y>62.03 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="81">
+        <VehicleID>19</VehicleID>
+        <X>-57.38</X>
+        <Y>62.02 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="82">
+        <VehicleID>14</VehicleID>
+        <X>74.71</X>
+        <Y>62.09 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="82">
+        <VehicleID>15</VehicleID>
+        <X>56.20</X>
+        <Y>62.08 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="82">
+        <VehicleID>16</VehicleID>
+        <X>27.58</X>
+        <Y>62.06 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="82">
+        <VehicleID>17</VehicleID>
+        <X>1.05</X>
+        <Y>62.05 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="82">
+        <VehicleID>18</VehicleID>
+        <X>-20.42</X>
+        <Y>62.04 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="82">
+        <VehicleID>19</VehicleID>
+        <X>-43.95</X>
+        <Y>62.03 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="83">
+        <VehicleID>14</VehicleID>
+        <X>88.07</X>
+        <Y>62.09 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="83">
+        <VehicleID>15</VehicleID>
+        <X>69.00</X>
+        <Y>62.08 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="83">
+        <VehicleID>16</VehicleID>
+        <X>41.65</X>
+        <Y>62.07 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="83">
+        <VehicleID>17</VehicleID>
+        <X>15.27</X>
+        <Y>62.06 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="83">
+        <VehicleID>18</VehicleID>
+        <X>-5.67</X>
+        <Y>62.05 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="83">
+        <VehicleID>19</VehicleID>
+        <X>-30.43</X>
+        <Y>62.04 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="84">
+        <VehicleID>14</VehicleID>
+        <X>101.61</X>
+        <Y>62.10 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="84">
+        <VehicleID>15</VehicleID>
+        <X>81.85</X>
+        <Y>62.09 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="84">
+        <VehicleID>16</VehicleID>
+        <X>55.63</X>
+        <Y>62.08 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="84">
+        <VehicleID>17</VehicleID>
+        <X>29.26</X>
+        <Y>62.07 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="84">
+        <VehicleID>18</VehicleID>
+        <X>8.85</X>
+        <Y>62.06 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="84">
+        <VehicleID>19</VehicleID>
+        <X>-16.81</X>
+        <Y>62.04 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="84">
+        <VehicleID>20</VehicleID>
+        <X>-58.21</X>
+        <Y>62.02 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="85">
+        <VehicleID>15</VehicleID>
+        <X>95.07</X>
+        <Y>62.10 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="85">
+        <VehicleID>16</VehicleID>
+        <X>69.52</X>
+        <Y>62.08 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="85">
+        <VehicleID>17</VehicleID>
+        <X>43.03</X>
+        <Y>62.07 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="85">
+        <VehicleID>18</VehicleID>
+        <X>23.23</X>
+        <Y>62.06 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="85">
+        <VehicleID>19</VehicleID>
+        <X>-3.10</X>
+        <Y>62.05 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="85">
+        <VehicleID>20</VehicleID>
+        <X>-43.03</X>
+        <Y>62.03 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="86">
+        <VehicleID>15</VehicleID>
+        <X>109.29</X>
+        <Y>62.10 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="86">
+        <VehicleID>16</VehicleID>
+        <X>83.37</X>
+        <Y>62.09 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="86">
+        <VehicleID>17</VehicleID>
+        <X>56.57</X>
+        <Y>62.08 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="86">
+        <VehicleID>18</VehicleID>
+        <X>37.50</X>
+        <Y>62.07 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="86">
+        <VehicleID>19</VehicleID>
+        <X>10.70</X>
+        <Y>62.06 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="86">
+        <VehicleID>20</VehicleID>
+        <X>-27.90</X>
+        <Y>62.04 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="86">
+        <VehicleID>21</VehicleID>
+        <X>-47.98</X>
+        <Y>62.03 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="87">
+        <VehicleID>16</VehicleID>
+        <X>97.90</X>
+        <Y>62.10 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="87">
+        <VehicleID>17</VehicleID>
+        <X>69.88</X>
+        <Y>62.08 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="87">
+        <VehicleID>18</VehicleID>
+        <X>51.56</X>
+        <Y>62.08 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="87">
+        <VehicleID>19</VehicleID>
+        <X>24.60</X>
+        <Y>62.06 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="87">
+        <VehicleID>20</VehicleID>
+        <X>-12.80</X>
+        <Y>62.05 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="87">
+        <VehicleID>21</VehicleID>
+        <X>-34.27</X>
+        <Y>62.04 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="88">
+        <VehicleID>17</VehicleID>
+        <X>82.96</X>
+        <Y>62.09 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="88">
+        <VehicleID>18</VehicleID>
+        <X>65.34</X>
+        <Y>62.08 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="88">
+        <VehicleID>19</VehicleID>
+        <X>38.54</X>
+        <Y>62.07 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="88">
+        <VehicleID>20</VehicleID>
+        <X>2.26</X>
+        <Y>62.05 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="88">
+        <VehicleID>21</VehicleID>
+        <X>-20.77</X>
+        <Y>62.04 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="89">
+        <VehicleID>17</VehicleID>
+        <X>96.04</X>
+        <Y>62.10 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="89">
+        <VehicleID>18</VehicleID>
+        <X>78.86</X>
+        <Y>62.09 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="89">
+        <VehicleID>19</VehicleID>
+        <X>52.47</X>
+        <Y>62.08 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="89">
+        <VehicleID>20</VehicleID>
+        <X>17.30</X>
+        <Y>62.06 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="89">
+        <VehicleID>21</VehicleID>
+        <X>-7.47</X>
+        <Y>62.05 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="89">
+        <VehicleID>22</VehicleID>
+        <X>-49.67</X>
+        <Y>62.03 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="90">
+        <VehicleID>17</VehicleID>
+        <X>109.36</X>
+        <Y>62.10 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="90">
+        <VehicleID>18</VehicleID>
+        <X>92.25</X>
+        <Y>62.10 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="90">
+        <VehicleID>19</VehicleID>
+        <X>66.37</X>
+        <Y>62.08 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="90">
+        <VehicleID>20</VehicleID>
+        <X>32.30</X>
+        <Y>62.07 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="90">
+        <VehicleID>21</VehicleID>
+        <X>5.62</X>
+        <Y>62.05 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="90">
+        <VehicleID>22</VehicleID>
+        <X>-35.76</X>
+        <Y>62.03 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="90">
+        <VehicleID>23</VehicleID>
+        <X>-57.05</X>
+        <Y>62.02 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="91">
+        <VehicleID>18</VehicleID>
+        <X>105.61</X>
+        <Y>62.10 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="91">
+        <VehicleID>19</VehicleID>
+        <X>80.22</X>
+        <Y>62.09 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="91">
+        <VehicleID>20</VehicleID>
+        <X>47.27</X>
+        <Y>62.07 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="91">
+        <VehicleID>21</VehicleID>
+        <X>18.72</X>
+        <Y>62.06 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="91">
+        <VehicleID>22</VehicleID>
+        <X>-21.75</X>
+        <Y>62.04 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="91">
+        <VehicleID>23</VehicleID>
+        <X>-43.07</X>
+        <Y>62.03 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="92">
+        <VehicleID>19</VehicleID>
+        <X>94.01</X>
+        <Y>62.10 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="92">
+        <VehicleID>20</VehicleID>
+        <X>62.21</X>
+        <Y>62.08 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="92">
+        <VehicleID>21</VehicleID>
+        <X>32.02</X>
+        <Y>62.07 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="92">
+        <VehicleID>22</VehicleID>
+        <X>-7.87</X>
+        <Y>62.05 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="92">
+        <VehicleID>23</VehicleID>
+        <X>-28.98</X>
+        <Y>62.04 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="93">
+        <VehicleID>19</VehicleID>
+        <X>107.74</X>
+        <Y>62.10 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="93">
+        <VehicleID>20</VehicleID>
+        <X>77.11</X>
+        <Y>62.09 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="93">
+        <VehicleID>21</VehicleID>
+        <X>45.52</X>
+        <Y>62.07 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="93">
+        <VehicleID>22</VehicleID>
+        <X>6.02</X>
+        <Y>62.05 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="93">
+        <VehicleID>23</VehicleID>
+        <X>-15.02</X>
+        <Y>62.04 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="93">
+        <VehicleID>24</VehicleID>
+        <X>-57.75</X>
+        <Y>62.02 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="94">
+        <VehicleID>20</VehicleID>
+        <X>91.96</X>
+        <Y>62.10 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="94">
+        <VehicleID>21</VehicleID>
+        <X>59.23</X>
+        <Y>62.08 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="94">
+        <VehicleID>22</VehicleID>
+        <X>20.13</X>
+        <Y>62.06 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="94">
+        <VehicleID>23</VehicleID>
+        <X>-1.18</X>
+        <Y>62.05 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="94">
+        <VehicleID>24</VehicleID>
+        <X>-43.30</X>
+        <Y>62.03 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="95">
+        <VehicleID>20</VehicleID>
+        <X>106.87</X>
+        <Y>62.10 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="95">
+        <VehicleID>21</VehicleID>
+        <X>73.14</X>
+        <Y>62.09 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="95">
+        <VehicleID>22</VehicleID>
+        <X>34.46</X>
+        <Y>62.07 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="95">
+        <VehicleID>23</VehicleID>
+        <X>12.69</X>
+        <Y>62.06 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="95">
+        <VehicleID>24</VehicleID>
+        <X>-29.00</X>
+        <Y>62.04 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="95">
+        <VehicleID>25</VehicleID>
+        <X>-48.89</X>
+        <Y>62.03 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="96">
+        <VehicleID>21</VehicleID>
+        <X>87.26</X>
+        <Y>62.09 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="96">
+        <VehicleID>22</VehicleID>
+        <X>49.01</X>
+        <Y>62.07 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="96">
+        <VehicleID>23</VehicleID>
+        <X>26.76</X>
+        <Y>62.06 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="96">
+        <VehicleID>24</VehicleID>
+        <X>-14.69</X>
+        <Y>62.04 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="96">
+        <VehicleID>25</VehicleID>
+        <X>-35.36</X>
+        <Y>62.03 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="96">
+        <VehicleID>26</VehicleID>
+        <X>-52.10</X>
+        <Y>62.03 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="97">
+        <VehicleID>21</VehicleID>
+        <X>101.58</X>
+        <Y>62.10 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="97">
+        <VehicleID>22</VehicleID>
+        <X>63.77</X>
+        <Y>62.08 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="97">
+        <VehicleID>23</VehicleID>
+        <X>41.30</X>
+        <Y>62.07 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="97">
+        <VehicleID>24</VehicleID>
+        <X>-0.09</X>
+        <Y>62.05 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="97">
+        <VehicleID>25</VehicleID>
+        <X>-21.97</X>
+        <Y>62.04 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="97">
+        <VehicleID>26</VehicleID>
+        <X>-38.24</X>
+        <Y>62.03 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="98">
+        <VehicleID>22</VehicleID>
+        <X>78.76</X>
+        <Y>62.09 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="98">
+        <VehicleID>23</VehicleID>
+        <X>56.24</X>
+        <Y>62.08 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="98">
+        <VehicleID>24</VehicleID>
+        <X>14.80</X>
+        <Y>62.06 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="98">
+        <VehicleID>25</VehicleID>
+        <X>-8.74</X>
+        <Y>62.05 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="98">
+        <VehicleID>26</VehicleID>
+        <X>-24.61</X>
+        <Y>62.04 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="99">
+        <VehicleID>22</VehicleID>
+        <X>93.75</X>
+        <Y>62.10 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="99">
+        <VehicleID>23</VehicleID>
+        <X>71.39</X>
+        <Y>62.09 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="99">
+        <VehicleID>24</VehicleID>
+        <X>29.99</X>
+        <Y>62.07 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="99">
+        <VehicleID>25</VehicleID>
+        <X>4.34</X>
+        <Y>62.05 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="99">
+        <VehicleID>26</VehicleID>
+        <X>-11.23</X>
+        <Y>62.05 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="100">
+        <VehicleID>22</VehicleID>
+        <X>108.52</X>
+        <Y>62.10 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="100">
+        <VehicleID>23</VehicleID>
+        <X>86.61</X>
+        <Y>62.09 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="100">
+        <VehicleID>24</VehicleID>
+        <X>45.48</X>
+        <Y>62.07 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="100">
+        <VehicleID>25</VehicleID>
+        <X>17.41</X>
+        <Y>62.06 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="100">
+        <VehicleID>26</VehicleID>
+        <X>1.96</X>
+        <Y>62.05 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="101">
+        <VehicleID>23</VehicleID>
+        <X>101.72</X>
+        <Y>62.10 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="101">
+        <VehicleID>24</VehicleID>
+        <X>60.97</X>
+        <Y>62.08 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="101">
+        <VehicleID>25</VehicleID>
+        <X>30.65</X>
+        <Y>62.07 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="101">
+        <VehicleID>26</VehicleID>
+        <X>15.03</X>
+        <Y>62.06 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="101">
+        <VehicleID>27</VehicleID>
+        <X>-46.88</X>
+        <Y>62.03 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="102">
+        <VehicleID>24</VehicleID>
+        <X>76.17</X>
+        <Y>62.09 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="102">
+        <VehicleID>25</VehicleID>
+        <X>44.03</X>
+        <Y>62.07 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="102">
+        <VehicleID>26</VehicleID>
+        <X>28.05</X>
+        <Y>62.06 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="102">
+        <VehicleID>27</VehicleID>
+        <X>-31.25</X>
+        <Y>62.04 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="103">
+        <VehicleID>24</VehicleID>
+        <X>91.06</X>
+        <Y>62.09 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="103">
+        <VehicleID>25</VehicleID>
+        <X>57.56</X>
+        <Y>62.08 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="103">
+        <VehicleID>26</VehicleID>
+        <X>41.03</X>
+        <Y>62.07 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="103">
+        <VehicleID>27</VehicleID>
+        <X>-15.78</X>
+        <Y>62.04 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="104">
+        <VehicleID>24</VehicleID>
+        <X>105.66</X>
+        <Y>62.10 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="104">
+        <VehicleID>25</VehicleID>
+        <X>71.25</X>
+        <Y>62.09 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="104">
+        <VehicleID>26</VehicleID>
+        <X>54.00</X>
+        <Y>62.08 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="104">
+        <VehicleID>27</VehicleID>
+        <X>-0.56</X>
+        <Y>62.05 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="105">
+        <VehicleID>25</VehicleID>
+        <X>85.09</X>
+        <Y>62.09 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="105">
+        <VehicleID>26</VehicleID>
+        <X>67.36</X>
+        <Y>62.08 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="105">
+        <VehicleID>27</VehicleID>
+        <X>14.51</X>
+        <Y>62.06 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="105">
+        <VehicleID>28</VehicleID>
+        <X>-50.20</X>
+        <Y>62.03 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="106">
+        <VehicleID>25</VehicleID>
+        <X>99.09</X>
+        <Y>62.10 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="106">
+        <VehicleID>26</VehicleID>
+        <X>81.25</X>
+        <Y>62.09 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="106">
+        <VehicleID>27</VehicleID>
+        <X>29.52</X>
+        <Y>62.07 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="106">
+        <VehicleID>28</VehicleID>
+        <X>-35.95</X>
+        <Y>62.03 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="106">
+        <VehicleID>29</VehicleID>
+        <X>-58.43</X>
+        <Y>62.02 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="107">
+        <VehicleID>26</VehicleID>
+        <X>95.44</X>
+        <Y>62.10 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="107">
+        <VehicleID>27</VehicleID>
+        <X>44.52</X>
+        <Y>62.07 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="107">
+        <VehicleID>28</VehicleID>
+        <X>-21.46</X>
+        <Y>62.04 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="107">
+        <VehicleID>29</VehicleID>
+        <X>-44.12</X>
+        <Y>62.03 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="108">
+        <VehicleID>26</VehicleID>
+        <X>109.93</X>
+        <Y>62.10 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="108">
+        <VehicleID>27</VehicleID>
+        <X>59.64</X>
+        <Y>62.08 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="108">
+        <VehicleID>28</VehicleID>
+        <X>-6.96</X>
+        <Y>62.05 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="108">
+        <VehicleID>29</VehicleID>
+        <X>-29.91</X>
+        <Y>62.04 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="109">
+        <VehicleID>27</VehicleID>
+        <X>75.00</X>
+        <Y>62.09 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="109">
+        <VehicleID>28</VehicleID>
+        <X>7.29</X>
+        <Y>62.06 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="109">
+        <VehicleID>29</VehicleID>
+        <X>-15.88</X>
+        <Y>62.04 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="110">
+        <VehicleID>27</VehicleID>
+        <X>90.61</X>
+        <Y>62.09 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="110">
+        <VehicleID>28</VehicleID>
+        <X>21.28</X>
+        <Y>62.06 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="110">
+        <VehicleID>29</VehicleID>
+        <X>-2.03</X>
+        <Y>62.05 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="111">
+        <VehicleID>27</VehicleID>
+        <X>106.47</X>
+        <Y>62.10 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="111">
+        <VehicleID>28</VehicleID>
+        <X>35.01</X>
+        <Y>62.07 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="111">
+        <VehicleID>29</VehicleID>
+        <X>11.64</X>
+        <Y>62.06 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="111">
+        <VehicleID>30</VehicleID>
+        <X>-53.46</X>
+        <Y>62.03 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="112">
+        <VehicleID>28</VehicleID>
+        <X>48.50</X>
+        <Y>62.07 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="112">
+        <VehicleID>29</VehicleID>
+        <X>25.31</X>
+        <Y>62.06 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="112">
+        <VehicleID>30</VehicleID>
+        <X>-39.47</X>
+        <Y>62.03 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="113">
+        <VehicleID>28</VehicleID>
+        <X>61.73</X>
+        <Y>62.08 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="113">
+        <VehicleID>29</VehicleID>
+        <X>39.03</X>
+        <Y>62.07 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="113">
+        <VehicleID>30</VehicleID>
+        <X>-25.33</X>
+        <Y>62.04 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="114">
+        <VehicleID>28</VehicleID>
+        <X>74.95</X>
+        <Y>62.09 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="114">
+        <VehicleID>29</VehicleID>
+        <X>52.63</X>
+        <Y>62.08 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="114">
+        <VehicleID>30</VehicleID>
+        <X>-11.04</X>
+        <Y>62.05 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="115">
+        <VehicleID>28</VehicleID>
+        <X>88.44</X>
+        <Y>62.09 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="115">
+        <VehicleID>29</VehicleID>
+        <X>66.14</X>
+        <Y>62.08 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="115">
+        <VehicleID>30</VehicleID>
+        <X>3.40</X>
+        <Y>62.05 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="115">
+        <VehicleID>31</VehicleID>
+        <X>-46.40</X>
+        <Y>62.03 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="116">
+        <VehicleID>28</VehicleID>
+        <X>102.17</X>
+        <Y>62.10 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="116">
+        <VehicleID>29</VehicleID>
+        <X>79.74</X>
+        <Y>62.09 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="116">
+        <VehicleID>30</VehicleID>
+        <X>17.84</X>
+        <Y>62.06 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="116">
+        <VehicleID>31</VehicleID>
+        <X>-30.75</X>
+        <Y>62.04 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="117">
+        <VehicleID>29</VehicleID>
+        <X>93.52</X>
+        <Y>62.10 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="117">
+        <VehicleID>30</VehicleID>
+        <X>32.13</X>
+        <Y>62.07 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="117">
+        <VehicleID>31</VehicleID>
+        <X>-15.25</X>
+        <Y>62.04 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="117">
+        <VehicleID>32</VehicleID>
+        <X>-52.21</X>
+        <Y>62.03 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="118">
+        <VehicleID>29</VehicleID>
+        <X>107.47</X>
+        <Y>62.10 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="118">
+        <VehicleID>30</VehicleID>
+        <X>46.26</X>
+        <Y>62.07 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="118">
+        <VehicleID>31</VehicleID>
+        <X>-0.03</X>
+        <Y>62.05 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="118">
+        <VehicleID>32</VehicleID>
+        <X>-36.42</X>
+        <Y>62.03 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="119">
+        <VehicleID>30</VehicleID>
+        <X>60.25</X>
+        <Y>62.08 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="119">
+        <VehicleID>31</VehicleID>
+        <X>15.04</X>
+        <Y>62.06 </Y>
+        </VehiclePosition>
+    <VehiclePosition time="119">
+        <VehicleID>32</VehicleID>
+        <X>-20.69</X>
+        <Y>62.04 </Y>
+        </VehiclePosition>
+    </VehiclePositions>
