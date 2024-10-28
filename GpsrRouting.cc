@@ -28,6 +28,17 @@ int my_x;
 int my_y;
 const double PI = 3.14159265358979323846;
 
+Define_Module(GpsrRouting);
+
+GpsrRouting::GpsrRouting() {}
+
+GpsrRouting::~GpsrRouting() {}
+
+void GpsrRouting::initialize() {
+    // 初始化邻居表
+    neighborTable.clear();
+}
+
 // 贪婪算法实现部分
 // 计算离目标最短节点，如果没有则使用周边转发
 int GpsrRouting::greedy_forwarding(int destX, int destY, bool useGG) {
@@ -56,7 +67,6 @@ int GpsrRouting::greedy_forwarding(int destX, int destY, bool useGG) {
     // 否则，返回贪婪转发最近的邻居节点ID
     return closestNeighborId;
 }
-
 
 // 辅助函数：计算两点之间的距离
 double GpsrRouting::calculateDistance(int x1, int y1, int x2, int y2) {
@@ -176,4 +186,8 @@ int GpsrRouting::peri_nexthop(bool useGG, int last, double sx, double sy, double
     }
 
     return nexthop;
+}
+
+void GpsrRouting::finish() {
+    // 结束时的处理
 }
