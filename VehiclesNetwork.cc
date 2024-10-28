@@ -122,7 +122,7 @@ void VehicleModule::scheduleNextUpdate() {
 }
 
 void VehicleModule::sendMessage() {
-    // 发送消息的具体实现（这里未提供原代码中的详细内容）
+
 }
 
 Define_Module(VehicleModule);
