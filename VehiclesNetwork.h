@@ -9,6 +9,7 @@
 #include <map>
 #include <cmath>
 #include <queue>
+#include <unordered_map>
 #include "GpsrRouting.h"
 
 using namespace omnetpp;
@@ -43,8 +44,13 @@ protected:
     void updateNeighbors();
 
 public:
-    VehicleModule();
-    virtual ~VehicleModule();
+    std::unordered_map<int, std::pair<double, double>> vehiclePositions; // 新增的变量声明
+    VehicleModule() : cSimpleModule(), updatePositionMsg(nullptr), timerMsg(nullptr), sendMsgTimer(nullptr) {}
+        ~VehicleModule() {
+            cancelAndDelete(updatePositionMsg);
+            cancelAndDelete(timerMsg);
+            cancelAndDelete(sendMsgTimer);
+        }
 
     // 计算两点之间的距离
     double calculateDistance(double x1, double y1, double x2, double y2);
