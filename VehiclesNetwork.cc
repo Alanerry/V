@@ -47,7 +47,7 @@ Define_Module(VehicleModule);
         } else {
             // 处理从其他模块接收的消息
             EV << "Received message: " << msg->getName() << "\n";
-            routeTable.emplace(msg, simTime());  // 将接收到的消息添加到路由表中
+            routeTable.emplace(RouteEntry(msg, simTime()));   // 将接收到的消息添加到路由表中
         }
     }
 
@@ -133,13 +133,14 @@ Define_Module(VehicleModule);
         // 如果有下一跳，发送消息
         if (nextHopId != -1)
         {
-            for (auto &neighbor : getParentModule()->getSubmodule("nodes")->getSubmodules())
+            for (const auto& [id, neighbor] : gpsr.neighborTable)
             {
-                if (neighbor->getIndex() == nextHopId)
+                if (id== nextHopId)
                 {
-                    sendDirect(message, neighbor->gate("in"));
+                    send(message, "out", id);
                     break;
                 }
             }
         }
     }
+    Define_Module(VehicleModule);

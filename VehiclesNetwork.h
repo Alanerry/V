@@ -20,6 +20,14 @@ struct RouteEntry {
     simtime_t receiveTime;
 
     RouteEntry(cMessage* m, simtime_t t) : msg(m), receiveTime(t) {}
+
+    bool operator<(const RouteEntry& other) const {
+        return receiveTime < other.receiveTime;
+    }
+
+    bool operator>(const RouteEntry& other) const {
+        return receiveTime > other.receiveTime;
+    }
 };
 
 class VehicleModule : public cSimpleModule
@@ -33,7 +41,6 @@ private:
     cMessage *sendMsgTimer = nullptr;  // 用于发送路由表中的消息的定时器
 
     GpsrRouting gpsr;  // GPSR 路由协议实例
-    std::priority_queue<RouteEntry, std::vector<RouteEntry>, std::greater<RouteEntry>> routeTable;  // 路由表
 
 protected:
     virtual void initialize() override;
@@ -44,6 +51,7 @@ protected:
     void updateNeighbors();
 
 public:
+    std::priority_queue<RouteEntry, std::vector<RouteEntry>, std::greater<RouteEntry>> routeTable;  // 路由表
     std::unordered_map<int, std::pair<double, double>> vehiclePositions; // 新增的变量声明
     VehicleModule() : cSimpleModule(), updatePositionMsg(nullptr), timerMsg(nullptr), sendMsgTimer(nullptr) {}
         ~VehicleModule() {
