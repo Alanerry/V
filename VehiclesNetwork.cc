@@ -4,9 +4,27 @@
 #include <string>
 #include <vector>
 #include <map>
+#include <queue>
+#include <unordered_map>
 #include "GpsrRouting.h"
 
 using namespace omnetpp;
+
+// 定义路由表结构
+struct RouteEntry {
+    cMessage* msg;
+    simtime_t receiveTime;
+
+    RouteEntry(cMessage* m, simtime_t t) : msg(m), receiveTime(t) {}
+
+    bool operator<(const RouteEntry& other) const {
+        return receiveTime < other.receiveTime;
+    }
+
+    bool operator>(const RouteEntry& other) const {
+        return receiveTime > other.receiveTime;
+    }
+};
 
 // VehicleModule 类定义
 class VehicleModule : public cSimpleModule
@@ -18,9 +36,14 @@ private:
     static double lastOutputTime;
     // 用于位置更新的消息
     cMessage *updatePositionMsg = nullptr;
-
+    GpsrRouting gpsr;  // GPSR 路由协议实例
     cMessage *sendMsg = nullptr;  // 用于发送消息的事件
+    cMessage *timerMsg = nullptr;  // 用于定时发送消息的事件
+    cMessage *sendMsgTimer = nullptr;  // 用于从路由表中发送消息的事件
     bool hasReceivedMsg = false;  // 标记是否收到消息
+
+    static std::priority_queue<RouteEntry, std::vector<RouteEntry>, std::greater<RouteEntry>> routeTable;  // 路由表
+    static std::unordered_map<int, std::pair<double, double>> vehiclePositions; // 新增的变量声明
 
 protected:
     // 初始化函数，OMNeT++ 在模块开始时调用
@@ -29,6 +52,14 @@ protected:
         updatePositionMsg = new cMessage("updatePosition");
         // 从0秒开始调度位置更新
         scheduleAt(0, updatePositionMsg);
+
+        // 创建定时发送消息
+        timerMsg = new cMessage("timerMsg");
+        scheduleAt(simTime() + 1, timerMsg);  // 每秒发送一次消息
+
+        // 创建从路由表中发送消息的事件
+        sendMsgTimer = new cMessage("sendMsgTimer");
+        scheduleAt(simTime() + 1, sendMsgTimer);  // 从1秒后开始发送路由表中的消息
 
         // 为车辆2添加发送消息的调度
         if (getIndex() == 2) {
@@ -49,6 +80,18 @@ protected:
             updatePosition();
             communicationCounts[currentTime]++;
             scheduleNextUpdate();
+        }
+        else if (msg == timerMsg) {
+            sendMessage();
+            scheduleAt(simTime() + 1, timerMsg);  // 每秒发送一次消息
+        }
+        else if (msg == sendMsgTimer) {
+            if (!routeTable.empty()) {
+                cMessage* msgToSend = routeTable.top().msg;
+                routeTable.pop();
+                send(msgToSend, "out");
+            }
+            scheduleAt(simTime() + 1, sendMsgTimer);  // 每秒发送一次路由表中的消息
         }
         else if (msg == sendMsg) {
             // 获取父模块（网络模块）
@@ -84,11 +127,10 @@ protected:
         else {
             EV << "车辆 " << (getIndex() + 1) << " 在时刻 " << simTime()
                << " 收到消息: " << msg->getName() << endl;
+            routeTable.emplace(RouteEntry(msg, simTime()));  // 将接收到的消息添加到路由表中
             delete msg;
         }
     }
-
-
 
     // 更新车辆的位置
     virtual void updatePosition() {
@@ -115,6 +157,8 @@ protected:
                         // 设置模块的显示位置
                         getDisplayString().setTagArg("p", 0, std::to_string(displayX).c_str());
                         getDisplayString().setTagArg("p", 1, std::to_string(displayY).c_str());
+                        // 更新车辆位置
+                        vehiclePositions[vehicleId] = {displayX, displayY};
                     }
                 }
                 // 获取下一个车辆位置元素
@@ -134,20 +178,71 @@ protected:
             scheduleAt(currentTime + 1, updatePositionMsg);  // 默认情况下每秒更新一次位置
         }
     }
-};
 
-// 初始化静态变量
-std::map<double, int> VehicleModule::communicationCounts;
-double VehicleModule::lastOutputTime = -1;
+    // 计算两个点之间的欧几里得距离
+    double calculateDistance(double x1, double y1, double x2, double y2) {
+        return std::sqrt((x1 - x2) * (x1 - x2) + (y1 - y2) * (y1 - y2));
+    }
+
+    // 更新邻居表
+    virtual void updateNeighbors() {
+        int myId = getIndex() + 1;  // 当前车辆的ID
+        double myX = vehiclePositions[myId].first;
+        double myY = vehiclePositions[myId].second;
+
+        gpsr.neighborTable.clear();  // 清空邻居表，重新添加
+
+        // 遍历所有车辆，计算距离，并判断是否在50米范围内
+        for (const auto& entry : vehiclePositions) {
+            int vehicleId = entry.first;
+            std::pair<double, double> position = entry.second;
+            if (vehicleId != myId) {
+                double distance = calculateDistance(myX, myY, position.first, position.second);
+                if (distance <= 50.0) {
+                    // 添加到邻居表
+                    GPSR_neighborRecord neighbor;
+                    neighbor.id = vehicleId;
+                    neighbor.x = position.first;
+                    neighbor.y = position.second;
+                    neighbor.ts = simTime().dbl();  // 时间戳
+                    gpsr.neighborTable[vehicleId] = neighbor;
+                }
+            }
+        }
+    }
+
+    // 发送消息
+    void sendMessage() {
+        cMessage *message = new cMessage("info");
+        message->addPar("sender") = getIndex() + 1;  // 设置发送者ID
+        message->addPar("timestamp") = simTime().dbl();  // 设置发送时间戳
+
+        // 获取目的地坐标
+        int destX = par("destX").intValue();
+        int destY = par("destY").intValue();
+
+        // 获取当前车辆的位置
+        int myId = getIndex() + 1;
+        double myX = vehiclePositions[myId].first;
+        double myY = vehiclePositions[myId].second;
+
+        // 使用 GPSR 协议选择下一跳
+        int nextHopId = gpsr.greedy_forwarding(destX, destY, true /* useGG */, myX, myY, 50);  // 假设最大范围为50米
+
+        // 如果有下一跳，发送消息
+        if (nextHopId != -1) {
+            for (const auto& entry : gpsr.neighborTable) {
+                int id = entry.first;
+                GPSR_neighborRecord neighbor = entry.second;
+                if (id == nextHopId) {
+                    send(message, "out", id);
+                    break;
+                }
+            }
+        }
+    }
+};
 
 // 定义模块
 Define_Module(VehicleModule);
 
-/**
-~VehicleModule() {
-    cancelAndDelete(updatePositionMsg);
-    if (sendMsg) {
-        cancelAndDelete(sendMsg);
-    }
-}
-**/

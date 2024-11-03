@@ -32,6 +32,7 @@ private:
     int peri_nexthop(bool useGG, int last, double sx, double sy, double dx, double dy);
 
 public:
+    friend class VehicleModule;
     // 构造和析构函数
     GpsrRouting();
     virtual ~GpsrRouting();
