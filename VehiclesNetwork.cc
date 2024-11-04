@@ -165,6 +165,8 @@ protected:
                 vehicleElement = vehicleElement->getNextSiblingWithTag("VehiclePosition");
             }
         }
+        // 更新邻居表
+        updateNeighbors();
     }
 
     // 调度下一个位置更新
@@ -246,3 +248,18 @@ protected:
 // 定义模块
 Define_Module(VehicleModule);
 
+// 初始化静态变量
+std::map<double, int> VehicleModule::communicationCounts;
+double VehicleModule::lastOutputTime = -1;
+std::priority_queue<RouteEntry, std::vector<RouteEntry>, std::greater<RouteEntry>> VehicleModule::routeTable;
+std::unordered_map<int, std::pair<double, double>> VehicleModule::vehiclePositions;
+/**
+// 析构函数
+VehicleModule::~VehicleModule() {
+    cancelAndDelete(updatePositionMsg);
+    if (sendMsg) {
+        cancelAndDelete(sendMsg);
+    }
+    cancelAndDelete(timerMsg);
+    cancelAndDelete(sendMsgTimer);
+}**/
