@@ -22,6 +22,30 @@
 
 using namespace std;
 
+// 构造函数
+GpsrRouting::GpsrRouting() {
+    // 初始化成员变量
+    my_id = -1;
+    my_x = 0.0;
+    my_y = 0.0;
+}
+
+// 析构函数
+GpsrRouting::~GpsrRouting() {
+    // 清理资源（如果有）
+}
+void GpsrRouting::initialize() {
+
+}
+
+void GpsrRouting::handleMessage(cMessage *msg) {
+
+}
+
+void GpsrRouting::finish() {
+
+}
+
 // 贪婪算法实现部分
 // 计算离目标最短节点，如果没有则使用周边转发
 int GpsrRouting::greedy_forwarding(int destX, int destY, bool useGG ,int nowid , int nowx , int nowy) {
