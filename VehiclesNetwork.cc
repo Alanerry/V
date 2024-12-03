@@ -16,6 +16,14 @@ struct MessageRecord {
     int destination;     // 目的地索引
 };
 
+// 转发表条目结构体
+struct ForwardingEntry {
+    int nextHopId;       // 下一跳节点ID
+    double destX;        // 目的地X坐标
+    double destY;        // 目的地Y坐标
+    simtime_t lastUpdateTime; // 最后更新时间
+};
+
 // VehicleModule 类定义
 class VehicleModule : public cSimpleModule
 {
@@ -37,7 +45,7 @@ private:
     int my_id;
         double my_x;
         double my_y;
-        std::map<int, int> forwardingTable; // 目的地ID -> 下一跳节点ID
+        std::map<int, ForwardingEntry> forwardingTable; // 目的地ID -> 转发表条目
 
 protected:
     // 初始化函数，OMNeT++ 在模块开始时调用
@@ -79,9 +87,8 @@ protected:
                 processBufferedMessages();
                 scheduleAt(simTime() + 0.5, sendBufferedMsgsMsg);
             } else {
-                // 处理其他类型的消息
                 // 假设这是来自其他车辆的消息
-                MessageRecord record;
+                            MessageRecord record;
                             record.content = msg->getName();
                             record.arrivalTime = simTime().dbl();
 
@@ -94,20 +101,27 @@ protected:
                             double destY = msg->par("destY").doubleValue();
 
                             receivedMessages.push(record);
+
                             // 检查转发表
-                                    auto it = forwardingTable.find(destinationIndex);
-                                    int nextHop = -1;
-                                    if (it != forwardingTable.end()) {
-                                        nextHop = it->second;
-                                    }
-                                    else {
-                                                // 使用 GPSR 路由逻辑决定下一跳
-                                                nextHop = gpsrInstance->greedy_forwarding(destX, destY, true, my_id, my_x, my_y);
-                                                if (nextHop != -1) {
-                                                    // 更新转发表
-                                                    forwardingTable[destinationIndex] = nextHop;
-                                                }
-                                            }
+                            auto it = forwardingTable.find(destinationIndex);
+                            int nextHop = -1;
+                            if (it != forwardingTable.end()) {
+                                // 使用最新的位置信息
+                                nextHop = it->second.nextHopId;
+                            } else {
+                                // 使用 GPSR 路由逻辑决定下一跳
+                                nextHop = gpsrInstance->greedy_forwarding(static_cast<int>(destX), static_cast<int>(destY), true, my_id, static_cast<int>(my_x), static_cast<int>(my_y));
+                                if (nextHop != -1) {
+                                    // 更新转发表
+                                    ForwardingEntry entry;
+                                    entry.nextHopId = nextHop;
+                                    entry.destX = destX;
+                                    entry.destY = destY;
+                                    entry.lastUpdateTime = simTime();
+                                    forwardingTable[destinationIndex] = entry;
+                                }
+                            }
+
                             if (nextHop != -1) {
                                 // 发送消息到下一跳
                                 EV << "车辆 " << (getIndex() + 1) << " 在时刻 " << simTime()
@@ -124,7 +138,7 @@ protected:
                             } else {
                                 EV << "车辆 " << (getIndex() + 1) << " 在时刻 " << simTime()
                                    << " 无法找到到目的地 " << record.destination << " 的路径" << endl;
-                                // 可以在这里处理无法转发的情况，例如缓存消息或丢弃消息                       }
+                                // 可以在这里处理无法转发的情况，例如缓存消息或丢弃消息                   }
             }
     }
     }
@@ -173,8 +187,25 @@ protected:
                 vehicleElement = vehicleElement->getNextSiblingWithTag("VehiclePosition");
             }
         }
+        // 更新转发表中的位置数据
+            updateForwardingTablePositions();
         // 调度下一个位置更新
             scheduleNextUpdate();
+    }
+
+    // 更新转发表中的位置数据
+    virtual void updateForwardingTablePositions() {
+        for (auto& entry : forwardingTable) {
+            int destinationIndex = entry.first;
+            auto it = neighborTable.find(destinationIndex);
+            if (it != neighborTable.end()) {
+                // 更新目的地坐标
+                entry.second.destX = it->second.x;
+                entry.second.destY = it->second.y;
+                // 更新最后更新时间
+                entry.second.lastUpdateTime = simTime();
+            }
+        }
     }
 
     // 调度下一个位置更新
