@@ -50,6 +50,7 @@ public:
     const std::map<int, GPSR_neighborRecord>& getNeighborTable() const {
         return neighborTable;
     }
+    void updateNeighbors(const std::map<int, GPSR_neighborRecord>& newNeighbors);
 };
 
 #endif /* GPSRROUTING_H_ */

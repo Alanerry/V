@@ -46,6 +46,12 @@ void GpsrRouting::finish() {
 
 }
 
+void GpsrRouting::updateNeighbors(const std::map<int, GPSR_neighborRecord>& newNeighbors) {
+    for (const auto& entry : newNeighbors) {
+        neighborTable[entry.first] = entry.second; // 使用 neighborTable 成员变量
+        EV << "更新邻居表，ID: " << entry.first << ", X: " << entry.second.x << ", Y: " << entry.second.y << ", 时间戳: " << entry.second.ts << endl;
+    }
+}
 // 贪婪算法实现部分
 // 计算离目标最短节点，如果没有则使用周边转发
 int GpsrRouting::greedy_forwarding(int destX, int destY, bool useGG ,int nowid , int nowx , int nowy) {

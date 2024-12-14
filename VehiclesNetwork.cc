@@ -84,63 +84,66 @@ protected:
             scheduleNextUpdate();
         }
         else if (msg == sendBufferedMsgsMsg) {
-                processBufferedMessages();
-                scheduleAt(simTime() + 0.5, sendBufferedMsgsMsg);
+            processBufferedMessages();
+            scheduleAt(simTime() + 0.5, sendBufferedMsgsMsg);
+        } else {
+            // 假设这是来自其他车辆的消息
+            MessageRecord record;
+            record.content = msg->getName();
+            record.arrivalTime = simTime().dbl();
+
+            // 从消息中提取目的地索引
+            int destinationIndex = msg->par("destinationIndex").longValue();
+            record.destination = destinationIndex;
+
+            // 从消息中提取目的地坐标
+            double destX = msg->par("destX").doubleValue();
+            double destY = msg->par("destY").doubleValue();
+
+            receivedMessages.push(record);
+
+            // 检查转发表
+            auto it = forwardingTable.find(destinationIndex);
+            int nextHop = -1;
+            if (it != forwardingTable.end()) {
+                // 使用最新的位置信息
+                nextHop = it->second.nextHopId;
             } else {
-                // 假设这是来自其他车辆的消息
-                            MessageRecord record;
-                            record.content = msg->getName();
-                            record.arrivalTime = simTime().dbl();
+                // 同步更新 GpsrRouting 的邻居表（确保使用最新信息）
+                gpsrInstance->updateNeighbors(neighborTable);
 
-                            // 从消息中提取目的地索引
-                            int destinationIndex = msg->par("destinationIndex").longValue();
-                            record.destination = destinationIndex;
-
-                            // 从消息中提取目的地坐标
-                            double destX = msg->par("destX").doubleValue();
-                            double destY = msg->par("destY").doubleValue();
-
-                            receivedMessages.push(record);
-
-                            // 检查转发表
-                            auto it = forwardingTable.find(destinationIndex);
-                            int nextHop = -1;
-                            if (it != forwardingTable.end()) {
-                                // 使用最新的位置信息
-                                nextHop = it->second.nextHopId;
-                            } else {
-                                // 使用 GPSR 路由逻辑决定下一跳
-                                nextHop = gpsrInstance->greedy_forwarding(static_cast<int>(destX), static_cast<int>(destY), true, my_id, static_cast<int>(my_x), static_cast<int>(my_y));
-                                if (nextHop != -1) {
-                                    // 更新转发表
-                                    ForwardingEntry entry;
-                                    entry.nextHopId = nextHop;
-                                    entry.destX = destX;
-                                    entry.destY = destY;
-                                    entry.lastUpdateTime = simTime();
-                                    forwardingTable[destinationIndex] = entry;
-                                }
-                            }
-
-                            if (nextHop != -1) {
-                                // 发送消息到下一跳
-                                EV << "车辆 " << (getIndex() + 1) << " 在时刻 " << simTime()
-                                   << " 转发消息: " << record.content << " (记录时间: " << record.arrivalTime
-                                   << ", 目的地: " << record.destination << ", 下一跳: " << nextHop << ")" << endl;
-
-                                // 将消息发送给下一跳节点
-                                cGate *outputGate = gate("out", nextHop);
-                                if (outputGate) {
-                                    send(msg, outputGate);
-                                } else {
-                                    EV << "车辆 " << (my_id + 1) << " 无法找到通往下一跳 " << nextHop << " 的输出门" << endl;
-                                }
-                            } else {
-                                EV << "车辆 " << (getIndex() + 1) << " 在时刻 " << simTime()
-                                   << " 无法找到到目的地 " << record.destination << " 的路径" << endl;
-                                // 可以在这里处理无法转发的情况，例如缓存消息或丢弃消息                   }
+                // 使用 GPSR 路由逻辑决定下一跳
+                nextHop = gpsrInstance->greedy_forwarding(static_cast<int>(destX), static_cast<int>(destY), true, my_id, static_cast<int>(my_x), static_cast<int>(my_y));
+                if (nextHop != -1) {
+                    // 更新转发表
+                    ForwardingEntry entry;
+                    entry.nextHopId = nextHop;
+                    entry.destX = destX;
+                    entry.destY = destY;
+                    entry.lastUpdateTime = simTime();
+                    forwardingTable[destinationIndex] = entry;
+                }
             }
-    }
+
+            if (nextHop != -1) {
+                // 发送消息到下一跳
+                EV << "车辆 " << (getIndex() + 1) << " 在时刻 " << simTime()
+                   << " 转发消息: " << record.content << " (记录时间: " << record.arrivalTime
+                   << ", 目的地: " << record.destination << ", 下一跳: " << nextHop << ")" << endl;
+
+                // 将消息发送给下一跳节点
+                cGate *outputGate = gate("out", nextHop);
+                if (outputGate) {
+                    send(msg, outputGate);
+                } else {
+                    EV << "车辆 " << (my_id + 1) << " 无法找到通往下一跳 " << nextHop << " 的输出门" << endl;
+                }
+            } else {
+                EV << "车辆 " << (getIndex() + 1) << " 在时刻 " << simTime()
+                   << " 无法找到到目的地 " << record.destination << " 的路径" << endl;
+                // 可以在这里处理无法转发的情况，例如缓存消息或丢弃消息
+            }
+        }
     }
 
 
@@ -227,6 +230,7 @@ protected:
                 }
 
     }
+
 
 };
 // 初始化静态变量
